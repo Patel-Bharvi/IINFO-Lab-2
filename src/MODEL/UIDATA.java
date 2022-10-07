@@ -18,7 +18,7 @@ public class UIDATA {
     private String EmployeeID;
     private String Age;
     private String Gender;
-    private String StartDate;
+    private Date StartDate;
     private String Level;
     private String TeamInfo;
     private String PositionTitle;
@@ -63,11 +63,11 @@ public class UIDATA {
         this.Gender = Gender;
     }
 
-    public String getStartDate() {
+    public Date getStartDate() {
         return StartDate;
     }
 
-    public void setStartDate(String StartDate) {
+    public void setStartDate(Date StartDate) {
         this.StartDate = StartDate;
     }
 
@@ -123,8 +123,8 @@ public class UIDATA {
         //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public void setStartDate(Date StartDate) {
+//    public void setStartDate(Date StartDate) {
         //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+//    }
 
 }

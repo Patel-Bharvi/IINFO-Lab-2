@@ -24,11 +24,9 @@ public class ViewJPanel extends javax.swing.JPanel {
      * Creates new form ViewJPanel
      */
     History history;
-    UIDATA user;
     public ViewJPanel(History history) {
         initComponents();
         this.history = history;
-         this.user = user;
         
         populateTable();
     }
@@ -361,21 +359,21 @@ public class ViewJPanel extends javax.swing.JPanel {
         }
         
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-        UIDATA selectedUI = (UIDATA)model.getValueAt(SelectedRowIndex, 0);
+        UIDATA selectedUI = history.getHistory().get(SelectedRowIndex);
         
         FNT.setText(selectedUI.getFullName());
         EIDT.setText(selectedUI.getEmployeeID());
         AT.setText(selectedUI.getAge());
         GT.setText(selectedUI.getGender());
-        SDT.setText(String.valueOf(selectedUI.getStartDate()));
+        SDT.setText(selectedUI.getStartDate().toString());
         LT.setText(selectedUI.getLevel());
         TIT.setText(selectedUI.getTeamInfo());
         PTT.setText(selectedUI.getPositionTitle());
-        CPNT.setText(selectedUI.getCellPhoneNumber());
-        EMIDT.setText(selectedUI.getEmailID());
-//        Image image = user.getPhoto();
-//        ImageIcon imic = new ImageIcon(image);
-//        UploadLabel.setIcon(imic);
+        CPNT1.setText(selectedUI.getCellPhoneNumber());
+        EMIDT1.setText(selectedUI.getEmailID());
+        Image image = selectedUI.getPhoto();
+        ImageIcon imic = new ImageIcon(image);
+        UploadLabel.setIcon(imic);
     }//GEN-LAST:event_ViewBtnActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
@@ -408,12 +406,9 @@ public class ViewJPanel extends javax.swing.JPanel {
             model.setValueAt(LT.getText(), i, 5);
             model.setValueAt(TIT.getText(), i, 6);
             model.setValueAt(PTT.getText(), i, 7);
-            model.setValueAt(CPNT.getText(), i, 8);
-            model.setValueAt(EMIDT.getText(), i, 9);
+            model.setValueAt(CPNT1.getText(), i, 8);
+            model.setValueAt(EMIDT1.getText(), i, 9);
             model.setValueAt(UpBtn.getText().toString(), i, 10);
-            Image image = user.getPhoto();
-            ImageIcon imic = new ImageIcon(image);
-            UploadLabel.setIcon(imic);
         }else{
             JOptionPane.showMessageDialog(null, "ERROR!");
         }

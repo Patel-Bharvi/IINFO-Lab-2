@@ -35,7 +35,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         this.history = history;
     }
     
-byte[] photo=null;
+Image photo=null;
 String filename=null;
 
 
@@ -208,9 +208,9 @@ String filename=null;
                             .addComponent(G)
                             .addComponent(GT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(SD)
-                            .addComponent(SDT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(SDT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(SD)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(L)
@@ -256,14 +256,11 @@ String filename=null;
         chooser.showOpenDialog(null);
         File f=chooser.getSelectedFile();
         try {
-            BufferedImage Photo = ImageIO.read(f);
+            photo = ImageIO.read(f);
         } catch (IOException ex) {
             Logger.getLogger(CreateJPanel.class.getName()).log(Level.SEVERE, null, ex);
         }
-        String Photo = null;
-        UpBtn.setIcon(new ImageIcon(Photo));
-        filename = f.getAbsolutePath();
-        PH1.setText(filename);
+        PH1.setText(f.getAbsolutePath());
     }//GEN-LAST:event_UpBtnActionPerformed
 
     private void SaveBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveBtnActionPerformed
@@ -298,7 +295,7 @@ String filename=null;
             ud.setPositionTitle(PositionTitle);
             ud.setCellPhoneNumber(CellPhoneNumber);
             ud.setEmailID(EmailID);
-            ud.setPhoto(Photo);
+            ud.setPhoto(photo);
 
             JOptionPane.showMessageDialog(this, "New Record Saved.");
 
