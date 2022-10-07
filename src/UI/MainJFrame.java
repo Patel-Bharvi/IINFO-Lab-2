@@ -15,15 +15,13 @@ public class MainJFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainJFrame
      */
-    
     History history;
-    
+
     public MainJFrame() {
         initComponents();
-        
+
         history = new History();
-        
-        
+
     }
 
     /**
@@ -122,16 +120,16 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void CreateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CreateBtnActionPerformed
         // TODO add your handling code here:
-        
+
         CreateJPanel createPanel = new CreateJPanel(history);
         jSplitPane1.setBottomComponent(createPanel);
-        
+
     }//GEN-LAST:event_CreateBtnActionPerformed
 
     private void ViewBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewBtnActionPerformed
         // TODO add your handling code here:
-        
-         ViewJPanel viewPanel = new ViewJPanel(history);
+
+        ViewJPanel viewPanel = new ViewJPanel(history);
         jSplitPane1.setBottomComponent(viewPanel);
     }//GEN-LAST:event_ViewBtnActionPerformed
 

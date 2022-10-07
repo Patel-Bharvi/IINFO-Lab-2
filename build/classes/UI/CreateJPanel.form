@@ -23,109 +23,128 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="Title" alignment="1" max="32767" attributes="0"/>
           <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="SaveBtn" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="237" max="-2" attributes="0"/>
+                      <Component id="PH" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="UpBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="PH1" pref="193" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="PH" min="-2" max="-2" attributes="0"/>
-                          <Component id="TI" min="-2" max="-2" attributes="0"/>
-                          <Component id="L" min="-2" max="-2" attributes="0"/>
                           <Component id="SD" min="-2" max="-2" attributes="0"/>
                           <Component id="G" min="-2" max="-2" attributes="0"/>
                           <Component id="A" min="-2" max="-2" attributes="0"/>
                           <Component id="EID" min="-2" max="-2" attributes="0"/>
                           <Component id="FN" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="EIDT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="GT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="FNT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="SDT" alignment="0" pref="160" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="TI" min="-2" max="-2" attributes="0"/>
+                          <Component id="L" min="-2" max="-2" attributes="0"/>
                           <Component id="CPN" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="PT" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="EMID" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="EIDT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="AT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="GT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="SDT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="LT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="TIT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="PTT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="CPNT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="EMIDT" linkSize="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="FNT" linkSize="1" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
-                          <Component id="UpBtn" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="LT" pref="160" max="32767" attributes="0"/>
+                          <Component id="TIT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PTT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="CPNT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="EMIDT" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="269" max="-2" attributes="0"/>
-                      <Component id="SaveBtn" min="-2" max="-2" attributes="0"/>
-                  </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="Title" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="FN" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="FNT" alignment="3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FN" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FNT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EIDT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="A" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="G" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="GT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SD" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SDT" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TI" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TIT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PTT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CPN" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CPNT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EMID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EMIDT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="EID" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="EIDT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="A" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="AT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="G" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="GT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="SD" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="SDT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="L" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="LT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="TI" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="TIT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="PT" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="PTT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="CPN" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="CPNT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="EMID" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="EMIDT" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="PH" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="UpBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PH1" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-              <Component id="SaveBtn" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Component id="SaveBtn" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -193,6 +212,7 @@
     <Component class="javax.swing.JLabel" name="PH">
       <Properties>
         <Property name="text" type="java.lang.String" value="Photo:"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="FNT">
@@ -209,8 +229,6 @@
     </Component>
     <Component class="javax.swing.JTextField" name="GT">
     </Component>
-    <Component class="javax.swing.JTextField" name="SDT">
-    </Component>
     <Component class="javax.swing.JTextField" name="LT">
     </Component>
     <Component class="javax.swing.JTextField" name="TIT">
@@ -223,7 +241,14 @@
     </Component>
     <Component class="javax.swing.JButton" name="UpBtn">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="UPLOAD"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UpBtnActionPerformed"/>
@@ -231,11 +256,22 @@
     </Component>
     <Component class="javax.swing.JButton" name="SaveBtn">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="SAVE"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveBtnActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="SDT">
+    </Component>
+    <Component class="javax.swing.JLabel" name="PH1">
     </Component>
   </SubComponents>
 </Form>

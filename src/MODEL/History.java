@@ -11,12 +11,16 @@ import java.util.ArrayList;
  * @author bharv
  */
 public class History {
-    
-    private ArrayList <UIDATA> history;
-    
-    public History(){
-        
-        this.history = new ArrayList <UIDATA>();
+
+    static void remove(UIDATA ud) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private ArrayList<UIDATA> history;
+
+    public History() {
+
+        this.history = new ArrayList<UIDATA>();
 
     }
 
@@ -27,12 +31,16 @@ public class History {
     public void setHistory(ArrayList<UIDATA> history) {
         this.history = history;
     }
-    
-    public UIDATA addnewrecords(){
-        
-      UIDATA newRecords = new UIDATA();
-      history.add(newRecords);
-      return newRecords;
-        
+
+    public UIDATA addnewrecords() {
+
+        UIDATA newRecords = new UIDATA();
+        history.add(newRecords);
+        return newRecords;
+
+    }
+
+    public void deleteUI(UIDATA selectedUI) {
+        history.remove(selectedUI);
     }
 }

@@ -13,7 +13,7 @@ import javax.swing.JButton;
  * @author bharv
  */
 public class UIDATA {
-    
+
     private String FullName;
     private String EmployeeID;
     private String Age;
@@ -36,6 +36,11 @@ public class UIDATA {
 
     public String getEmployeeID() {
         return EmployeeID;
+    }
+
+    @Override
+    public String toString() {
+        return FullName;
     }
 
     public void setEmployeeID(String EmployeeID) {
@@ -117,7 +122,9 @@ public class UIDATA {
     public void setPhoto(JButton Photo) {
         //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
-    
-    
+
+    public void setStartDate(Date StartDate) {
+        //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }
